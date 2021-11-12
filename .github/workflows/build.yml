@@ -16,3 +16,5 @@ jobs:
       run: make docker-build
     - name: Run tests
       run: make docker-runtest-all
+    - name: Pylint action
+      uses: gabriel-milan/action-pylint@v1
